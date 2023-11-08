@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.frame-eightball {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  padding: 91px 359px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #2e2e2ed3;
+}
+
+.frame-eightball .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame-eightball .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 677px;
+  height: 673px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.frame-eightball .ellipse-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  height: 653px;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.frame-eightball .ellipse {
+  position: relative;
+  width: 637px;
+  height: 633px;
+  background-color: #000000;
+  border-radius: 318.5px/316.5px;
+  box-shadow: inset 10px 20px 80px #b9b5b5, 0px 4px 4px #00000040;
+}
+
+.frame-eightball .rectangle-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 602px;
+  height: 94px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  position: relative;
+}
+
+.frame-eightball .rectangle {
+  position: relative;
+  width: 603px;
+  height: 94px;
+  margin-left: -0.5px;
+  margin-right: -0.5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 80px #00000040;
+  font-size: 2em;
+}
+
+.frame-eightball .div-wrapper {
+  position: absolute;
+  width: 387px;
+  height: 372px;
+  top: 150px;
+  left: 154px;
+}
+
+.frame-eightball .div {
+  position: relative;
+  width: 367px;
+  height: 352px;
+  top: 10px;
+  left: 10px;
+  background-color: #2d2d2dc9;
+  border-radius: 183.5px/176px;
+  border: 1px solid;
+  border-color: #817f7f;
+  box-shadow: inset 0px 4px 80px #c5c3c340, 0px 4px 80px #bdbdbd40;
+}
+
+.frame-eightball .polygon-wrapper {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 156px;
+  left: 158px;
+}
+
+.frame-eightball .polygon {
+  position: absolute;
+  width: 326px;
+  height: 268px;
+  top: 89px;
+  left: 25px;
+}
+
+.frame-eightball .frame-2 {
+  position: absolute;
+  width: 153px;
+  height: 94px;
+  top: 280px;
+  left: 270px;
+  font-size: 2em;
+}
+
+.frame-eightball .text-wrapper {
+  position: absolute;
+  width: 133px;
+  top: 9px;
+  left: 10px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame-eightball .element {
+  position: absolute;
+  width: 115px;
+  height: 61px;
+  top: 59px;
+  left: 293px;
+}
+.enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 30%;
+  margin-top: 10%;
+  border-radius: 10px;
+}
